@@ -1,15 +1,11 @@
 // ParSTLTests.cpp : Defines the entry point for the console application.
 
-//#include <algorithm>
+#include <algorithm>
 #include <chrono>
-//#include <execution>
+#include <execution>
 #include <iostream>
-//#include <numeric>
+#include <numeric>
 #include <vector>
-
-#include <oneapi/dpl/algorithm>
-#include <oneapi/dpl/execution>
-#include <oneapi/dpl/numeric>
 
 template <typename TFunc>
 void RunAndMeasure(const char* title, TFunc func) {

@@ -3,16 +3,13 @@
 
 #include <cctype>
 #include <chrono>
-//#include <execution>  // for the execution policy
+#include <algorithm>
+#include <execution>  // for the execution policy
 #include <iostream>
-//#include <numeric>  // for transform_reduce()
+#include <numeric>  // for transform_reduce()
 #include <string>
 #include <string_view>
 #include <vector>
-
-#include <oneapi/dpl/algorithm>
-#include <oneapi/dpl/execution>
-#include <oneapi/dpl/numeric>
 
 bool is_word_beginning(char left, char right) {
   return std::isspace(left) && !std::isspace(right);

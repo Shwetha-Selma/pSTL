@@ -3,6 +3,7 @@
 
 #include <cctype>
 #include <chrono>
+#include <algorithm>
 #include <execution>  // for the execution policy
 #include <iostream>
 #include <numeric>  // for transform_reduce()
